@@ -7,6 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import pandas
 import PyPDF2
+import pathlib
+
 
 print("Type in your name:")
 gifter_name = input()
@@ -31,5 +33,19 @@ with open("gifts.csv", "r") as file:
             break
         row=line.rstrip().split(";") 
 
-print(cheap_gift)
-print(expebsive_gift)
+#print(cheap_gift)
+#print(expebsive_gift)
+pdffolder = pathlib.Path("payslips")
+pdf_payslip = list(pdffolder.glob("*.pdf"))
+
+for f in range(len(pdf_payslip)):
+
+    pdf_file=PyPDF2.PdfReader(open(pdf_payslip[f],"rb"))
+    page = pdf_file.pages[0]
+    text=page.extract_text()
+    if gifter_name in text:
+        pstn1=text.find("Employer Signature")
+        pstn2 = (text[pstn1-8:pstn1])
+        print(pstn2)
+
+
