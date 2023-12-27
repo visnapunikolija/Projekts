@@ -50,9 +50,33 @@ for f in range(len(pdf_payslip)):
         break
 
 
-if int(pstn3) < 1500:
+if int(pstn3) < 1600:
     true_gift = cheap_gift
 else:
     true_gift = expensive_gift
 
-print(true_gift)
+
+#print(true_gift)
+
+service = Service()
+option = webdriver.ChromeOptions()
+driver = webdriver.Chrome(service=service, options=option)
+url = "https://220.lv/ru?gad_source=1&gclid=EAIaIQobChMIwti9icivgwMVgaeDBx26sAjNEAAYASAAEgInqvD_BwE"
+driver.get(url)
+time.sleep(2)
+
+find1 = driver.find_element(By.CLASS_NAME, "c-btn--secondary.h-btn--small.cookies_accept-all")
+find1.click()
+time.sleep(2)
+find2 = driver.find_element(By.ID, "searchInput")
+find2.send_keys(true_gift)
+find3 = driver.find_element(By.CLASS_NAME, "c-search__submit")
+find3.click()
+find4 = driver.find_element(By.CLASS_NAME, "product-item-inner.height-countdown.heightResponse")
+find4.click()
+find5 = driver.find_element(By.CLASS_NAME, "c-btn--primary.h-btn-intent--atc")
+find5.click()
+time.sleep(2)
+find6 = driver.find_element(By.ID, "buy")
+find6.click()
+input()
