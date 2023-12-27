@@ -21,7 +21,7 @@ for line in range(len(info_list)):
         giftreceiver_name = info_list[line][1]
         break
 
-print(giftreceiver_name)
+
 
 with open("gifts.csv", "r") as file:
     next(file)
@@ -29,12 +29,12 @@ with open("gifts.csv", "r") as file:
         if giftreceiver_name in line:
             row=line.rstrip().split(";") 
             cheap_gift = row[1]
-            expebsive_gift = row[2]
+            expensive_gift = row[2]
             break
-        row=line.rstrip().split(";") 
+        
 
-#print(cheap_gift)
-#print(expebsive_gift)
+
+
 pdffolder = pathlib.Path("payslips")
 pdf_payslip = list(pdffolder.glob("*.pdf"))
 
@@ -46,6 +46,13 @@ for f in range(len(pdf_payslip)):
     if gifter_name in text:
         pstn1=text.find("Employer Signature")
         pstn2 = (text[pstn1-8:pstn1])
-        print(pstn2)
+        pstn3=float(pstn2.rstrip())
+        break
 
 
+if int(pstn3) < 1500:
+    true_gift = cheap_gift
+else:
+    true_gift = expensive_gift
+
+print(true_gift)
