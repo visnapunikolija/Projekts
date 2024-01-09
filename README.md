@@ -28,4 +28,9 @@
 **Es izmantoju šādas bibliotēkas:**
 
 1. selenium
-2.  
+  - Lai strādātu ar Google Chrome un turpmāk izmantot vietni 220.lv un vietni payslips.com
+2. PyPDF2
+  - Lai strādātu ar PDF failiem un būtu iespēja noteikt darbinieku algu
+3. pathlib
+  -
+    
