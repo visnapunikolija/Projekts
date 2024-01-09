@@ -32,5 +32,8 @@
 2. PyPDF2
   - Lai strādātu ar PDF failiem un būtu iespēja noteikt darbinieku algu
 3. pathlib
-  -
-    
+  - Lai būtu iespējams iegūt algu Pdf failus no konkrētas mapes
+4. pandas
+  - Lai strādātu ar Excel failu
+5. time
+  - Lai vēlāk, strādājot ar Selenium bibliotēku, būtu iespējams aizkavēt procesu uz noteiktu laiku  
