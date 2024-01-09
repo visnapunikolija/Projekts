@@ -10,7 +10,7 @@ import PyPDF2
 import pathlib
 
 
-print("Type in your name:")
+print("Lūdzu, ievadiet savu vārdu:")
 gifter_name = input()
 
 fails = pandas.read_excel("names.xlsx", sheet_name="names")
@@ -21,7 +21,8 @@ for line in range(len(info_list)):
         giftreceiver_name = info_list[line][1]
         break
 
-
+print("Kolēģis, kuram jūs dāvināt davanu ir:")
+print(giftreceiver_name)
 
 with open("gifts.csv", "r") as file:
     next(file)
@@ -56,7 +57,7 @@ else:
     true_gift = expensive_gift
 
 
-#print(true_gift)
+
 
 service = Service()
 option = webdriver.ChromeOptions()
