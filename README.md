@@ -22,3 +22,10 @@
 - 100 PDF failus, kuros ir informācija par katra darbinieka decembra algu. Faili atrodas mapē ar nosaukumu "payslips"
 
 **Mana uzdevuma būtība ir tāda, ka darbinieks ievada savu pilno vārdu terminālī un saņem informāciju par darbinieku, kam viņš dāvina dāvanu. Turklāt Google Chrome  automātiski tiek atvērts logs ar vietni 220.lv , kur dāvana jau ir ievietota pirkuma groze. Ja darbinieka decembra bruto alga ir mazāka par 1600 eiro, tad viņš dāvina dāvanu vērtībā no 30 līdz 50 eiro. Ja taču viņa alga ir lielāka par 1600 eiro, tad dāvana ir vērtībā no 60 līdz 90 eiro.**
+
+## Python bibliotēkas
+
+**Es izmantoju šādas bibliotēkas:**
+
+1. selenium
+2.  
