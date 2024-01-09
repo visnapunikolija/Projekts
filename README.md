@@ -1,4 +1,5 @@
 #Idejas ieradīšana
+
 **Man bija uzdots uzdevums izveidot sistēmu, kas automatizēs kādu no manu ikdienas uzdevumiem. Es ilgu laiku domāju par ideju šim projektam. Tad mana izveidojas lieliska ideja, ko iedvesmoja nesenā situācija manā darbā.**
 **Es strādāju viesnīcā ar kolektīvu apmēram 80 cilvēku. Mūsu vadība nolēma organizēt kopīgu Secret Santa pasākumu visos departamentos. Par to atbildīgu iecēla manu departamenta vadītāju, tāpēc es personīgi biju lieciniece šim procesam. Rezultāts neizdevās labi. Daži bija neapmierināti ar dāvanu budžetu, daži pat ne labi pazina personu, kuru bija jādāvina, daži nepiedalījās izlozē, lai izvilktu dāvanu saņēmēja vārdu, un daži nejauši izvilka pat divus vārdus. Beigās daudziem nepatika dāvanas, un kāds pat neko nesaņēma, un nebija zināms, kas bija vainīgs.**
 **Tāpēc es nolēmu izveidot kodu, kas šogad varētu palīdzēt situācijā un nākamgad būtu noderīgs.**
