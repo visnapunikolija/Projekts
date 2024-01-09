@@ -7,11 +7,11 @@
 **Tāpēc es nolēmu izveidot kodu, kas šogad varētu palīdzēt situācijā un nākamgad būtu noderīgs.**
 
 ## Sagatavošanās procesam
-**Lai izveidotu šo kodu, es izmantoju izdomātas datu kopas. Atradu vietni ar nejaušiem vārdiem un nokopēju tur 100 vārdus. Tad otrā kolonnā sakārtoju tos pēc vārda, veidojot nejaušu izlozi. Pēc tam vietnē 220.lv pēc cenas kategorijas sakārtoju manuāli iekopēju katru preces ID Excel failā, ko vēlāk saglabāju kā CSV failu. Kad pienāca laiks manuāli izveidot 100 PDF darba algas izrakstus, sapratu, ka varētu izveidot kodu, lai atvieglotu šo procesu. Izmantojot Selenium bibliotēku, es atradu pirmo vietni, kas pamaniju, un izmantojot ciklu for, ieguvu 100 vēlamo algu izrakstes. Koda failu sauc salaryweb.py**
+**Lai izveidotu šo kodu, es izmantoju izdomātas datu kopas. Atradu vietni ar nejaušiem vārdiem un nokopēju tur 100 vārdus (Vienkārši iedomāsimies, ka šajā uzņēmumā strādā 100 cilvēki no Latvijas ar ļoti ne latviskiem vārdiem). Tad otrā kolonnā sakārtoju tos pēc vārda, veidojot nejaušu izlozi. Pēc tam vietnē 220.lv pēc cenas kategorijas sakārtoju manuāli iekopēju katru preces ID Excel failā, ko vēlāk saglabāju kā CSV failu. Kad pienāca laiks manuāli izveidot 100 PDF darba algas izrakstus, sapratu, ka varētu izveidot kodu, lai atvieglotu šo procesu. Izmantojot Selenium bibliotēku, es atradu pirmo vietni, kas pamaniju, un izmantojot ciklu for, ieguvu 100 vēlamo algu izrakstes. Koda failu sauc salaryweb.py**
 
 ## Apraksts
 
-**Secret Santa notiek lielā korporācijā ar nosaukumu X. X strādā 100 darbinieki, tāpēc personīgi organizēt izlozi bija neiespējami, un vadība izlēma, ka katrais darbinieks iepriekš izvēlēsies 2 vēlamās dāvanas vietnē 220.lv, atšķirīgās cenu kategorijās, lai neatkarīgi no tā, kam nonāk, visi būtu apmierināti ar dāvanām. Konkrētais dāvanas izdevums būs atkarīgs no bruto algas.**
+**Secret Santa notiek lielā uzņēmūma ar nosaukumu X. X strādā 100 darbinieki, tāpēc personīgi organizēt izlozi bija neiespējami, un vadība izlēma, ka katrais darbinieks iepriekš izvēlēsies 2 vēlamās dāvanas vietnē 220.lv, atšķirīgās cenu kategorijās, lai neatkarīgi no tā, kam nonāk, visi būtu apmierināti ar dāvanām. Konkrētais dāvanas izdevums būs atkarīgs no bruto algas.**
 
 ## Uzdevums
 
