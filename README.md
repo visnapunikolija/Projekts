@@ -11,7 +11,7 @@
 
 ## Apraksts
 
-**Secret Santa notiek lielā uzņēmūma ar nosaukumu X. X strādā 100 darbinieki, tāpēc personīgi organizēt izlozi bija neiespējami, un vadība izlēma, ka katrais darbinieks iepriekš izvēlēsies 2 vēlamās dāvanas vietnē 220.lv, atšķirīgās cenu kategorijās, lai neatkarīgi no tā, kam nonāk, visi būtu apmierināti ar dāvanām. Konkrētais dāvanas izdevums būs atkarīgs no bruto algas.**
+**Secret Santa notiek pietiekami lielā uzņēmūma ar nosaukumu X. X strādā 100 darbinieki, tāpēc personīgi organizēt izlozi bija neiespējami, un vadība izlēma, ka katrais darbinieks iepriekš izvēlēsies 2 vēlamās dāvanas vietnē 220.lv, atšķirīgās cenu kategorijās, lai neatkarīgi no tā, kam nonāk, visi būtu apmierināti ar dāvanām. Konkrētais dāvanas izdevums būs atkarīgs no bruto algas.**
 
 ## Uzdevums
 
