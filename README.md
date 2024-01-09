@@ -19,6 +19,6 @@
 
 - Excel failu, kurā ir darbinieka vārds, kas dāvina dāvanu (pirmajā kolonnā), un darbinieka vārds, kurš saņem dāvanu (otrā kolonnā).
 - CSV failu, kurā ir darbinieka vārds, dāvanas ID vērtībā no 30 līdz 50 eiro un dāvanas ID vērtībā no 60 līdz 90 eiro. Visi šie dati ir atdalīti ar komatu un atrodas attiecīgajā secībā.
-- 00 PDF failus, kuros ir informācija par katra darbinieka decembra algu.
+- 100 PDF failus, kuros ir informācija par katra darbinieka decembra algu. Faili atrodas mapē ar nosaukumu "Payslips"
 
 **Mana uzdevuma būtība ir tāda, ka darbinieks ievada savu pilno vārdu terminālī un saņem informāciju par darbinieku, kam viņš dāvina dāvanu. Turklāt Google Chrome  automātiski tiek atvērts logs ar vietni 220.lv , kur dāvana jau ir ievietota pirkuma groze. Ja darbinieka decembra bruto alga ir mazāka par 1600 eiro, tad viņš dāvina dāvanu vērtībā no 30 līdz 50 eiro. Ja taču viņa alga ir lielāka par 1600 eiro, tad dāvana ir vērtībā no 60 līdz 90 eiro.**
