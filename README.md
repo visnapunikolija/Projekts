@@ -21,4 +21,4 @@
 - CSV failu, kurā ir darbinieka vārds, dāvanas ID vērtībā no 30 līdz 50 eiro un dāvanas ID vērtībā no 60 līdz 90 eiro. Visi šie dati ir atdalīti ar komatu un atrodas attiecīgajā secībā.
 - 00 PDF failus, kuros ir informācija par katra darbinieka decembra algu.
 
-**Mana uzdevuma būtība ir tāda, ka darbinieks ievada savu pilno vārdu terminālī un saņem informāciju par darbinieku, kam viņš dāvina dāvanu. Turklāt Google Chrome pārlūkprogrammā automātiski tiek atvērts logs, kur dāvana jau ir ievietota 220.lv vietnē. Ja darbinieka decembra alga ir mazāka par 1600 eiro, tad viņš dāvina dāvanu vērtībā no 30 līdz 50 eiro. Ja taču viņa alga ir lielāka par 1600 eiro, tad dāvana ir vērtībā no 60 līdz 90 eiro.**
+**Mana uzdevuma būtība ir tāda, ka darbinieks ievada savu pilno vārdu terminālī un saņem informāciju par darbinieku, kam viņš dāvina dāvanu. Turklāt Google Chrome  automātiski tiek atvērts logs ar vietni 220.lv , kur dāvana jau ir ievietota pirkuma groze. Ja darbinieka decembra bruto alga ir mazāka par 1600 eiro, tad viņš dāvina dāvanu vērtībā no 30 līdz 50 eiro. Ja taču viņa alga ir lielāka par 1600 eiro, tad dāvana ir vērtībā no 60 līdz 90 eiro.**
